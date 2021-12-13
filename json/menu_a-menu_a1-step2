@@ -22,18 +22,26 @@
           "type":"input",
           "label":"Email",
           "value":"komson.u@mail.com",
-          "enable":true
+          "enable":false
         },
         {
           "code":"field3",
           "type":"input",
-          "label":"Phone"
+          "label":"Phone",
+          "enable":false
         },
         {
           "code":"field4",
           "type":"hidden",
           "label":"Phone",
           "value":"It's Hidden."
+        },
+        {
+          "code":"field5",
+          "type":"button",
+          "label":"Confirm",
+          "value":"Confirm",
+          "url":"https://raw.githubusercontent.com/chchus/android-dynamic-form/master/json/menu_a-menu_a1-step3"
         }
       ]
     },

@@ -12,21 +12,21 @@
         },
         {
           "code":"field1",
-          "type":"input",
+          "type":"label",
           "label":"Name",
           "value":"Komsan Udomwittaya",
           "enable":false
         },
         {
           "code":"field2",
-          "type":"input",
+          "type":"label",
           "label":"Email",
           "value":"komson.u@mail.com",
           "enable":true
         },
         {
           "code":"field3",
-          "type":"input",
+          "type":"label",
           "label":"Phone"
         },
         {
@@ -34,6 +34,12 @@
           "type":"hidden",
           "label":"Phone",
           "value":"It's Hidden."
+        },
+        {
+          "code":"field5",
+          "type":"close",
+          "label":"Close",
+          "value":"Close"
         }
       ]
     },
