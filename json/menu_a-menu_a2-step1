@@ -87,6 +87,13 @@
           "type":"hidden",
           "label":"Phone",
           "value":"It's Hidden."
+        },
+        {
+          "code":"field8",
+          "type":"button",
+          "label":"Submit",
+          "value":"Submit",
+          "url":"https://raw.githubusercontent.com/chchus/android-dynamic-form/master/json/menu_a-menu_a2-step2"
         }
       ]
     },
