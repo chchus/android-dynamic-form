@@ -1,0 +1,65 @@
+{
+  "status":true,
+  "statusCode":"00000",
+  "statusMessage":"Successful",
+  "generalFormMenuResp":{
+    "layout":{
+      "title":"Title A2",
+      "body":[
+        {
+          "type":"header",
+          "label":"Header A2"
+        },
+        {
+          "code":"field1",
+          "type":"input",
+          "label":"Name",
+          "value":"Komsan Udomwittaya",
+          "enable":false
+        },
+        {
+          "code":"field2",
+          "type":"input",
+          "label":"Email",
+          "value":"komson.u@mail.com",
+          "enable":true
+        },
+        {
+          "code":"field3",
+          "type":"input",
+          "label":"Label 3",
+          "value":"value 3",
+          "enable":true
+        },
+        {
+          "code":"field4",
+          "type":"input",
+          "label":"Label 4",
+          "value":"value 4",
+          "enable":true
+        },
+        {
+          "code":"field5",
+          "type":"input",
+          "label":"Label 5",
+          "value":"value 5",
+          "enable":true
+        },
+        {
+          "code":"field6",
+          "type":"input",
+          "label":"Label 6"
+        },
+        {
+          "code":"field7",
+          "type":"hidden",
+          "label":"Phone",
+          "value":"It's Hidden."
+        }
+      ]
+    },
+    "data":{
+      
+    }
+  }
+}

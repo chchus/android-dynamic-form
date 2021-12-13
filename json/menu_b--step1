@@ -1,0 +1,16 @@
+{
+  "status":true,
+  "statusCode":"00001",
+  "statusMessage":"ท่านลงทะเบียนเรียบร้อยแล้ว",
+  "generalFormMenuResp":{
+    "layout":{
+      "title":"Title B",
+      "body":[
+        
+      ]
+    },
+    "data":{
+      
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "status":true,
+  "statusCode":"00000",
+  "statusMessage":"Successful",
+  "generalFormMenuResp":{
+    "mainMenu":[
+      {
+        "code":"menu_a",
+        "sequence":1,
+        "title":"Menu A",
+        "subMenu":[
+          {
+            "code":"menu_a1",
+            "sequence":1,
+            "title":"Menu A1",
+            "url":"https://httpd.chch.us/dynamicform/menu_a-menu_a1-step1"
+          },
+          {
+            "code":"menu_a2",
+            "sequence":2,
+            "title":"Menu A2",
+            "url":"https://httpd.chch.us/dynamicform/menu_a-menu_a2-step1"
+          },
+          {
+            "code":"menu_a3",
+            "sequence":3,
+            "title":"Menu A3",
+            "url":"https://httpd.chch.us/dynamicform/menu_a-menu_a3-step1"
+          }
+        ]
+      },
+      {
+        "code":"menu_b",
+        "sequence":2,
+        "title":"Menu B",
+        "url":"https://httpd.chch.us/dynamicform/menu_b--step1"
+      },
+      {
+        "code":"menu_c",
+        "sequence":3,
+        "title":"Menu C",
+        "url":"https://httpd.chch.us/dynamicform/menu_c--step1"
+      },
+      {
+        "code":"menu_d",
+        "sequence":4,
+        "title":"Menu D",
+        "subMenu":[
+          {
+            "code":"menu_d1",
+            "sequence":1,
+            "title":"Menu D1",
+            "url":"https://run.mocky.io/v3/7de740b9-695d-409f-a4bd-cda1735f2575"
+          },
+          {
+            "code":"menu_d2",
+            "sequence":2,
+            "title":"Menu D2",
+            "url":"https://run.mocky.io/v3/7de740b9-695d-409f-a4bd-cda1735f2575"
+          },
+          {
+            "code":"menu_d3",
+            "sequence":3,
+            "title":"Menu D3",
+            "url":"https://run.mocky.io/v3/7de740b9-695d-409f-a4bd-cda1735f2575"
+          }
+        ]
+      },
+      {
+        "code":"menu_e",
+        "sequence":5,
+        "title":"Menu E",
+        "url":"https://run.mocky.io/v3/7de740b9-695d-409f-a4bd-cda1735f2575"
+      },
+      {
+        "code":"menu_f",
+        "sequence":6,
+        "title":"Menu F",
+        "url":"https://run.mocky.io/v3/7de740b9-695d-409f-a4bd-cda1735f2575"
+      },
+      {
+        "code":"menu_g",
+        "sequence":7,
+        "title":"Menu G",
+        "url":"https://run.mocky.io/v3/7de740b9-695d-409f-a4bd-cda1735f2575"
+      }
+    ]
+  }
+}
