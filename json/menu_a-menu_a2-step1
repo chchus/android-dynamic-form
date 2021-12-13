@@ -26,16 +26,48 @@
         },
         {
           "code":"field3",
-          "type":"input",
-          "label":"Label 3",
-          "value":"value 3",
+          "type":"checkbox",
+          "label":"Checkbox Label 1",
+          "value":"Checkbox Label 1",
           "enable":true
         },
         {
           "code":"field4",
-          "type":"input",
-          "label":"Label 4",
-          "value":"value 4",
+          "type":"checkbox",
+          "label":"Checkbox Label 2",
+          "value":"Checkbox Label 2",
+          "enable":true
+        },
+        {
+          "code":"field5",
+          "type":"radiogroup",
+          "label":"Radio Group",
+          "radio":[
+            {
+              "code":"radio1",
+              "label":"Radio 1",
+              "value":"Radio 1",
+              "":true
+            },
+            {
+              "code":"radio2",
+              "label":"Radio 2",
+              "value":"Radio 2",
+              "":true
+            },
+            {
+              "code":"radio3",
+              "label":"Radio 3",
+              "value":"Radio 3",
+              "":false
+            },
+            {
+              "code":"radio4",
+              "label":"Radio 4",
+              "value":"Radio 4",
+              "":true
+            }
+          ],
           "enable":true
         },
         {
