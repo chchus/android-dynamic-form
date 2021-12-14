@@ -25,46 +25,49 @@
           "enable":true
         },
         {
+          "type":"label",
+          "label":"Checkbox Label"
+        },
+        {
           "code":"field3",
           "type":"checkbox",
-          "label":"Checkbox Label 1",
-          "value":"Checkbox Label 1",
+          "value":"Checkbox Value 1",
           "enable":true
         },
         {
           "code":"field4",
           "type":"checkbox",
-          "label":"Checkbox Label 2",
-          "value":"Checkbox Label 2",
+          "value":"Checkbox Value 2",
           "enable":true
         },
         {
           "code":"field5",
           "type":"radiogroup",
           "label":"Radio Group",
+          "orientation":"HORIZONTAL",
           "radio":[
             {
               "code":"radio1",
               "label":"Radio 1",
-              "value":"Radio 1",
+              "value":"Radio Value 1",
               "":true
             },
             {
               "code":"radio2",
               "label":"Radio 2",
-              "value":"Radio 2",
+              "value":"Radio Value 2",
               "":true
             },
             {
               "code":"radio3",
               "label":"Radio 3",
-              "value":"Radio 3",
+              "value":"Radio Value 3",
               "":false
             },
             {
               "code":"radio4",
               "label":"Radio 4",
-              "value":"Radio 4",
+              "value":"Radio Value 4",
               "":true
             }
           ],
@@ -72,9 +75,9 @@
         },
         {
           "code":"field5",
-          "type":"input",
-          "label":"Label 5",
-          "value":"value 5",
+          "type":"checkbox",
+          "label":"Checkbox Label 1",
+          "value":"Checkbox Value 1",
           "enable":true
         },
         {
@@ -90,6 +93,12 @@
         },
         {
           "code":"field8",
+          "type":"checkbox",
+          "value":"Accept Term and Condition",
+          "required":true
+        },
+        {
+          "code":"field9",
           "type":"button",
           "label":"Submit",
           "value":"Submit",
