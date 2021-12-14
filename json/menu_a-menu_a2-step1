@@ -44,16 +44,13 @@
           "code":"field5",
           "type":"radiogroup",
           "label":"Radio Group",
-          "orientation":"VERTICAL",
+          "orientation":"HORIZONTAL",
           "value":"loanAcct",
           "enable":true,
-          "radio":[
-            {
-              "label":"acctNo",
-              "value":"acctNo",
-              "isChecked":false
-            }
-          ]
+          "radio":{
+            "value":"acctNo",
+            "isChecked":false
+          }
         },
         {
           "code":"field6",
