@@ -44,7 +44,7 @@
           "code":"field5",
           "type":"radiogroup",
           "label":"Radio Group",
-          "orientation":"HORIZONTAL",
+          "orientation":"VERTICAL",
           "value":"loanAcct",
           "enable":true,
           "radio":[
