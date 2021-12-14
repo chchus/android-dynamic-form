@@ -4,6 +4,7 @@
   "statusMessage":"Successful",
   "generalFormMenuResp":{
     "layout":{
+      "type":"final",
       "title":"Title A",
       "body":[
         {
