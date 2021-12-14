@@ -49,12 +49,14 @@
       "custom":{
         "custom1":"It's hidden.",
         "custom2":"Custom 2",
-        "submit":"Submit"
+        "submit":"Submit",
+        "close":"Close"
       },
       "customer":{
-        "name":"Komsan Udomwittaya",
-        "email":"komson.u@mail.com",
-        "phone":""
+        "name":"Thanapat Udomdechsakul",
+        "email":"thanapat.udom@mail.com",
+        "phone":"",
+        "ssn":"3-1000-90000-00-1"
       },
       "depositAcct":[
         {

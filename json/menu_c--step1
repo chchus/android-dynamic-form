@@ -14,21 +14,21 @@
           "code":"field1",
           "type":"input",
           "label":"SSN",
-          "value":"3-1000-90000-00-1",
+          "value":"customer.ssn",
           "enable":false
         },
         {
           "code":"field2",
           "type":"input",
           "label":"Name",
-          "value":"Komsan Udomwittaya",
+          "value":"customer.name",
           "enable":false
         },
         {
           "code":"field3",
           "type":"input",
           "label":"Email",
-          "value":"komson.u@mail.com",
+          "value":"customer.email",
           "enable":true
         },
         {
@@ -40,12 +40,63 @@
           "code":"field5",
           "type":"hidden",
           "label":"Phone",
-          "value":"It's Hidden."
+          "value":"custom.custom1"
         }
       ]
     },
     "data":{
-      
+      "custom":{
+        "custom1":"It's hidden.",
+        "custom2":"Custom 2",
+        "submit":"Submit",
+        "close":"Close"
+      },
+      "customer":{
+        "name":"Thanapat Udomdechsakul",
+        "email":"thanapat.udom@mail.com",
+        "phone":"",
+        "ssn":"3-1000-90000-00-1"
+      },
+      "depositAcct":[
+        {
+          "acctNo":"123123123123",
+          "acctName":"Thanapat Udomdechsakul",
+          "type":"001",
+          "sequence":1
+        },
+        {
+          "acctNo":"123123123134",
+          "acctName":"Thanapat Udomdechsakul",
+          "type":"001",
+          "sequence":2
+        },
+        {
+          "acctNo":"123123123145",
+          "acctName":"Thanapat Udomdechsakul",
+          "type":"001",
+          "sequence":3
+        }
+      ],
+      "loanAcct":[
+        {
+          "acctNo":"987987987987",
+          "acctName":"Thanapat Udomdechsakul",
+          "type":"101",
+          "sequence":1
+        },
+        {
+          "acctNo":"987987987976",
+          "acctName":"Thanapat Udomdechsakul",
+          "type":"102",
+          "sequence":2
+        },
+        {
+          "acctNo":"987987987965",
+          "acctName":"Thanapat Udomdechsakul",
+          "type":"101",
+          "sequence":3
+        }
+      ]
     }
   }
 }
