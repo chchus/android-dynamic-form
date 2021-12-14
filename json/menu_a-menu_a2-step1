@@ -14,14 +14,14 @@
           "code":"field1",
           "type":"input",
           "label":"Name",
-          "value":"Komsan Udomwittaya",
+          "value":"customer.name",
           "enable":false
         },
         {
           "code":"field2",
           "type":"input",
           "label":"Email",
-          "value":"komson.u@mail.com",
+          "value":"customer.email",
           "enable":true
         },
         {
@@ -45,69 +45,138 @@
           "type":"radiogroup",
           "label":"Radio Group",
           "orientation":"HORIZONTAL",
+          "value":"loanAcct",
+          "enable":true,
+          "radio":[
+            {
+              "label":"acctNo",
+              "value":"acctNo",
+              "isChecked":false
+            }
+          ]
+        },
+        {
+          "code":"field6",
+          "type":"input",
+          "label":"Label 6",
+          "value":"custom.custom6"
+        },
+        {
+          "code":"field7",
+          "type":"radiogroup",
+          "label":"Radio Group",
+          "orientation":"HORIZONTAL",
+          "enable":true,
           "radio":[
             {
               "code":"radio1",
               "label":"Radio 1",
               "value":"Radio Value 1",
-              "":true
+              "isChecked":true
             },
             {
               "code":"radio2",
               "label":"Radio 2",
               "value":"Radio Value 2",
-              "":true
+              "isChecked":true
             },
             {
               "code":"radio3",
               "label":"Radio 3",
               "value":"Radio Value 3",
-              "":false
+              "isChecked":false
             },
             {
               "code":"radio4",
               "label":"Radio 4",
               "value":"Radio Value 4",
-              "":true
+              "isChecked":true
             }
-          ],
-          "enable":true
+          ]
         },
         {
-          "code":"field5",
+          "code":"field8",
           "type":"checkbox",
           "label":"Checkbox Label 1",
           "value":"Checkbox Value 1",
           "enable":true
         },
         {
-          "code":"field6",
-          "type":"input",
-          "label":"Label 6"
-        },
-        {
-          "code":"field7",
+          "code":"field9",
           "type":"hidden",
-          "label":"Phone",
-          "value":"It's Hidden."
+          "label":"Hidden",
+          "value":"custom.custom1"
         },
         {
-          "code":"field8",
+          "code":"field10",
           "type":"checkbox",
-          "value":"Accept Term and Condition",
+          "value":"custom.acceptTerm",
           "required":true
         },
         {
-          "code":"field9",
+          "code":"field11",
           "type":"button",
           "label":"Submit",
-          "value":"Submit",
+          "value":"custom.submit",
           "url":"https://raw.githubusercontent.com/chchus/android-dynamic-form/master/json/menu_a-menu_a2-step2"
         }
       ]
     },
     "data":{
-      
+      "custom":{
+        "custom1":"It's hidden.",
+        "custom2":"Custom 2",
+        "submit":"Submit",
+        "close":"Close",
+        "acceptTerm":"Accept Term and Condition",
+        "custom6":"Value 6"
+      },
+      "customer":{
+        "name":"Thanapat Udomdechsakul",
+        "email":"thanapat.udom@mail.com",
+        "phone":"",
+        "ssn":"3-1000-90000-00-1"
+      },
+      "depositAcct":[
+        {
+          "acctNo":"123123123123",
+          "acctName":"Thanapat Udomdechsakul",
+          "type":"001",
+          "sequence":1
+        },
+        {
+          "acctNo":"123123123134",
+          "acctName":"Thanapat Udomdechsakul",
+          "type":"001",
+          "sequence":2
+        },
+        {
+          "acctNo":"123123123145",
+          "acctName":"Thanapat Udomdechsakul",
+          "type":"001",
+          "sequence":3
+        }
+      ],
+      "loanAcct":[
+        {
+          "acctNo":"987987987987",
+          "acctName":"Thanapat Udomdechsakul",
+          "type":"101",
+          "sequence":1
+        },
+        {
+          "acctNo":"987987987976",
+          "acctName":"Thanapat Udomdechsakul",
+          "type":"102",
+          "sequence":2
+        },
+        {
+          "acctNo":"987987987965",
+          "acctName":"Thanapat Udomdechsakul",
+          "type":"101",
+          "sequence":3
+        }
+      ]
     }
   }
 }
