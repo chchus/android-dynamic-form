@@ -4,11 +4,11 @@
   "statusMessage":"Successful",
   "generalFormMenuResp":{
     "layout":{
-      "title":"Title A",
+      "title":"customer.name",
       "body":[
         {
           "type":"header",
-          "value":"Name"
+          "value":"custom.custom2"
         },
         {
           "code":"field1",

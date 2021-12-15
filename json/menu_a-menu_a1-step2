@@ -4,11 +4,11 @@
   "statusMessage":"Successful",
   "generalFormMenuResp":{
     "layout":{
-      "title":"Title A",
+      "title":"customer.name",
       "body":[
         {
           "type":"header",
-          "label":"Name"
+          "label":"custom.verify"
         },
         {
           "code":"field1",
@@ -28,19 +28,18 @@
           "code":"field3",
           "type":"input",
           "label":"Phone",
+          "value":"081-999-9999"
           "enable":false
         },
         {
           "code":"field4",
           "type":"hidden",
-          "label":"Phone",
           "value":"custom.custom1"
         },
         {
           "code":"field5",
           "type":"button",
-          "label":"Confirm",
-          "value":"Confirm",
+          "value":"custom.confirm",
           "url":"https://raw.githubusercontent.com/chchus/android-dynamic-form/master/json/menu_a-menu_a1-step3"
         }
       ]
@@ -50,7 +49,9 @@
         "custom1":"It's hidden.",
         "custom2":"Custom 2",
         "submit":"Submit",
-        "close":"Close"
+        "close":"Close",
+        "verify":"Verify"
+        "confirm":"Confirm"
       },
       "customer":{
         "name":"Thanapat Udomdechsakul",

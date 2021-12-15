@@ -4,11 +4,11 @@
   "statusMessage":"Successful",
   "generalFormMenuResp":{
     "layout":{
-      "title":"Title A",
+      "title":"custom.custom2",
       "body":[
         {
           "type":"header",
-          "label":"Name"
+          "label":"customer.name"
         },
         {
           "code":"field1",
@@ -32,13 +32,11 @@
         {
           "code":"field4",
           "type":"hidden",
-          "label":"Phone",
           "value":"custom.custom1"
         },
         {
           "code":"field5",
           "type":"close",
-          "label":"Close",
           "value":"Close"
         }
       ]

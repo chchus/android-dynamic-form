@@ -5,11 +5,11 @@
   "generalFormMenuResp":{
     "layout":{
       "type":"final",
-      "title":"Title A",
+      "title":"customer.name",
       "body":[
         {
           "type":"header",
-          "label":"Name"
+          "label":"custom.custom2"
         },
         {
           "code":"field1",
@@ -32,7 +32,6 @@
         {
           "code":"field5",
           "type":"close",
-          "label":"Close",
           "value":"custom.close"
         }
       ]

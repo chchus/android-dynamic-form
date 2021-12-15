@@ -4,7 +4,7 @@
   "statusMessage":"ท่านลงทะเบียนเรียบร้อยแล้ว",
   "generalFormMenuResp":{
     "layout":{
-      "title":"Title B",
+      "title":"customer.name",
       "body":[
         
       ]
