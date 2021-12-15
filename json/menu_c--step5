@@ -1,15 +1,15 @@
 {
   "status":true,
-  "statusCode":"00001",
+  "statusCode":"00000",
   "statusMessage":"ท่านลงทะเบียนเรียบร้อยแล้ว",
   "generalFormMenuResp":{
     "layout":{
       "type":"final",
-      "title":"Title C",
+      "title":"customer.name",
       "body":[
         {
           "type":"header",
-          "value":"customer.name"
+          "value":"custom.custom2"
         },
         {
           "code":"field1",
@@ -47,7 +47,7 @@
     "data":{
       "custom":{
         "custom1":"It's hidden.",
-        "custom2":"Custom 2",
+        "custom2":"Custom 2.5 Success",
         "submit":"Submit",
         "close":"Close"
       },

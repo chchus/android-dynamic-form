@@ -4,11 +4,11 @@
   "statusMessage":"Successful",
   "generalFormMenuResp":{
     "layout":{
-      "title":"Title A",
+      "title":"customer.name",
       "body":[
         {
           "type":"header",
-          "value":"customer.name"
+          "value":"custom.custom2"
         },
         {
           "code":"field1",
@@ -33,13 +33,19 @@
           "code":"field4",
           "type":"hidden",
           "value":"custom.custom1"
+        },
+        {
+          "code":"field6",
+          "type":"button",
+          "value":"custom.submit",
+          "url":"https://raw.githubusercontent.com/chchus/android-dynamic-form/master/json/menu_c--step3"
         }
       ]
     },
     "data":{
       "custom":{
         "custom1":"It's hidden.",
-        "custom2":"Custom 2",
+        "custom2":"Custom 2.2",
         "submit":"Submit",
         "close":"Close"
       },

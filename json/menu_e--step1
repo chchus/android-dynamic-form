@@ -5,7 +5,7 @@
   "generalFormMenuResp":{
     "layout":{
       "type":"alert",
-      "title":"Title B Alert",
+      "title":"custom.custom9",
       "body":[
         
       ]
@@ -15,7 +15,8 @@
         "custom1":"It's hidden.",
         "custom2":"Custom 2",
         "submit":"Submit",
-        "close":"Close"
+        "close":"Close",
+        "custom9":"Title B Alert"
       },
       "customer":{
         "name":"Thanapat Udomdechsakul",

@@ -9,7 +9,7 @@
       "body":[
         {
           "type":"header",
-          "label":"custom.custom2"
+          "value":"custom.custom2"
         },
         {
           "code":"field1",
