@@ -26,19 +26,34 @@
         },
         {
           "type":"label",
-          "label":"Checkbox Label"
+          "label":"Channel"
         },
         {
           "code":"field3",
           "type":"checkbox",
-          "value":"Checkbox Value 1",
-          "enable":true
+          "value":"customer.phone",
+          "enable":true,
+          "isChecked":true
         },
         {
           "code":"field4",
           "type":"checkbox",
-          "value":"Checkbox Value 2",
+          "value":"customer.email",
           "enable":true
+        },
+        {
+          "code":"field12",
+          "type":"list",
+          "label":"Checkbox Group",
+          "orientation":"VERTICAL",
+          "value":"depositAcct",
+          "enable":true,
+          "list":{
+            "code":"chk",
+            "type":"checkbox",
+            "value":"acctNo",
+            "isChecked":false
+          }
         },
         {
           "code":"field5",
@@ -131,7 +146,7 @@
       "customer":{
         "name":"Thanapat Udomdechsakul",
         "email":"thanapat.udom@mail.com",
-        "phone":"",
+        "phone":"081-999-9999",
         "ssn":"3-1000-90000-00-1"
       },
       "depositAcct":[
