@@ -28,7 +28,7 @@
           "code":"field3",
           "type":"input",
           "label":"Phone",
-          "value":"081-999-9999"
+          "value":"081-999-9999",
           "enable":false
         },
         {
@@ -50,7 +50,7 @@
         "custom2":"Custom 2",
         "submit":"Submit",
         "close":"Close",
-        "verify":"Verify"
+        "verify":"Verify",
         "confirm":"Confirm"
       },
       "customer":{
