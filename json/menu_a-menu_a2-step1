@@ -8,7 +8,7 @@
       "body":[
         {
           "type":"header",
-          "label":"Header A2"
+          "value":"Header A2"
         },
         {
           "code":"field1",
@@ -91,18 +91,6 @@
               "label":"Radio 2",
               "value":"Radio Value 2",
               "isChecked":true
-            },
-            {
-              "code":"radio3",
-              "label":"Radio 3",
-              "value":"Radio Value 3",
-              "isChecked":false
-            },
-            {
-              "code":"radio4",
-              "label":"Radio 4",
-              "value":"Radio Value 4",
-              "isChecked":true
             }
           ]
         },
@@ -116,7 +104,6 @@
         {
           "code":"field9",
           "type":"hidden",
-          "label":"Hidden",
           "value":"custom.custom1"
         },
         {
@@ -128,7 +115,6 @@
         {
           "code":"field11",
           "type":"button",
-          "label":"Submit",
           "value":"custom.submit",
           "url":"https://raw.githubusercontent.com/chchus/android-dynamic-form/master/json/menu_a-menu_a2-step2"
         }

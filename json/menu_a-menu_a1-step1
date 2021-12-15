@@ -8,7 +8,7 @@
       "body":[
         {
           "type":"header",
-          "label":"Name"
+          "value":"Name"
         },
         {
           "code":"field1",
@@ -33,13 +33,11 @@
         {
           "code":"field4",
           "type":"hidden",
-          "label":"Phone",
           "value":"custom.custom1"
         },
         {
           "code":"field5",
           "type":"button",
-          "label":"Submit",
           "value":"custom.submit",
           "url":"https://raw.githubusercontent.com/chchus/android-dynamic-form/master/json/menu_a-menu_a1-step2"
         }
